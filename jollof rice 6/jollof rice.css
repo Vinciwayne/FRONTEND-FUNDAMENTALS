@@ -1,0 +1,1152 @@
+
+/* i learnt so many css styling from -- 
+https://www.w3schools.com  */
+
+
+
+
+
+
+/* the body represents the whole webpage 
+this changes the background of the whole 
+webpage */
+
+
+
+
+
+/*The selector points to the HTML element you want to style.
+
+The declaration block contains one or more declarations separated by semicolons.
+
+Each declaration includes a CSS property name and a value, separated by a colon.*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+
+
+/* body*/
+
+
+
+
+Body {
+
+	background-color: #d9d9a8; 
+margin: 0px;
+
+}
+
+
+
+
+/*large size screen*/
+@media screen and  (min-width: 751px){
+	body{
+		
+		min-width: 751px;
+	}
+}
+
+
+
+/*medium size screen*/
+@media screen and (min-width: 401px) and (max-width: 750px){
+	body{
+		min-width: 401px;
+		max-width:750px;
+	}
+}
+
+
+
+/* small size screen*/
+@media screen and (max-width: 400px) {
+
+body{
+	max-width: 400px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+/* navigation*/
+
+*{
+	box-sizing: border-box;
+}
+
+
+
+/* Style the top navigation bar */
+nav {
+  overflow: hidden;
+  background-color:#f2f29e;
+}
+
+/* Style the topnav links */
+nav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #ff9966;
+  border-right: 1px solid black;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+/* Change color on hover */
+nav a:hover {
+  background-color: black;
+  color: white;
+}
+
+
+/*large size screen*/
+@media screen and  (min-width: 751px){
+  nav a {
+    float: left;
+  
+   font-size: 18px;
+
+  }
+}
+
+/*medium size screen*/
+@media screen and (min-width: 401px) and (max-width: 750px)
+{
+	nav a{
+		 float: none;
+    width: 100%;
+    border-bottom: 1px solid black;
+    border-right: none;
+    font-size: 25px;
+	}
+}
+
+
+/* On screens that are 400px wide or less*/
+@media screen and (max-width: 400px) {
+  nav a {
+    float: none;
+    width: 100%;
+    border-bottom: 1px solid black;
+    border-right: none;
+    font-size:20px ;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* for styling of the single heading with css  */
+
+
+
+
+
+h1 {
+	text-align: center;
+font-family: Arial, Helveica, sans-serif;
+text-decoration: underline;
+padding-bottom: 20px;
+text-transform: uppercase;
+font-weight: bolder;
+font-size: 30px;
+}
+
+
+/*large size screen*/
+@media screen and  (min-width: 751px)
+{
+	h1{
+
+font-size: 30px;
+font-weight: bolder;
+	
+	}
+}
+
+
+/*medium size screen*/
+@media screen and (min-width: 401px) and (max-width: 750px){
+	h1{
+		font-size: 20px;
+font-weight: bold;
+	}
+}
+
+
+/* small size screen*/
+@media screen and (max-width: 400px)
+
+{
+
+	h1{
+		
+font-size: 15px;
+font-weight: bold;
+
+	}
+}
+
+
+
+
+
+
+
+ h3{
+
+	 font-family: Arial, Helveica, sans-serif;
+font-weight: bolder;
+text-decoration: underline;
+padding-bottom: 20px;
+text-transform: uppercase;
+font-size: 20px;
+
+}
+
+
+
+/*large size screen*/
+@media screen and  (min-width: 751px)
+{
+	h3{
+		font-size: 15px;
+	}
+}
+
+
+
+/*medium size screen*/
+@media screen and (min-width: 401px) and (max-width: 750px)
+
+{
+	h3{
+		font-size: 12px;
+	}
+}
+
+
+
+/* small size screen*/
+@media screen and (max-width: 400px)
+{
+	h3{
+		font-size: 9px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#forestgreen-font {
+color: forestgreen;
+}
+
+ 
+ /*large size screen*/
+@media screen and  (min-width: 751px)
+
+{
+	#forestgreen-font {
+color: forestgreen;
+}
+}
+
+
+/*medium size screen*/
+@media screen and (min-width: 401px) and (max-width: 750px){
+	#forestgreen-font {
+color: violet;
+}
+}
+
+
+/* small size screen*/
+@media screen and (max-width: 400px){
+	#forestgreen-font {
+color: purple;
+}
+}
+
+
+
+/* end of heading styling */ 
+
+
+
+
+
+
+
+/* this is for all the paragragh on
+ the webpage linked to this css */
+
+
+
+p {
+
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-size: 14px;
+
+}
+ /*large size screen*/
+@media screen and  (min-width: 751px)
+{
+	p{
+		font-size: 20px;
+	}
+}
+/*medium size screen*/
+@media screen and (min-width: 401px) and (max-width: 750px)
+{
+	p{
+		font-size: 15px;
+	}
+}
+/* small size screen*/
+@media screen and (max-width: 400px)
+{
+	p{
+		font-size: 10px;
+	}
+}
+
+
+
+p > span {
+	 
+	font-style: italic;
+}
+
+
+
+
+ #ghana1{
+	text-decoration: underline;
+}
+
+
+.mali1{
+	font-style: normal;
+	color: red;
+}
+
+
+
+#history {
+background-color: #f2f29e;	
+border-radius: 10px;
+text-align: center;
+}
+
+
+/*large size screen*/
+@media screen and  (min-width: 751px)
+{
+	#history{
+min-width: 751px;
+	}
+}
+
+
+/*medium size screen*/
+@media screen and (min-width: 401px) and (max-width: 750px)
+{
+	#history{
+		min-width: 401px;
+		max-width: 750px;
+	}
+}
+
+
+/* small size screen*/
+@media screen and (max-width: 400px)
+{
+	#history{
+		max-width: 400px;
+	}
+}
+
+
+ 
+
+#history p {
+	
+font-size: 12px;
+    margin: 20px;
+
+}
+
+ /*large size screen*/
+@media screen and  (min-width: 751px)
+{
+	#history p{
+		font-size: 20px;
+
+	}
+}
+
+
+/*medium size screen*/
+@media screen and (min-width: 401px) and (max-width: 750px)
+{
+	#history p{
+		font-size: 15px;
+	}
+}
+
+
+/* small size screen*/
+@media screen and (max-width: 400px)
+{
+	#history p{
+		font-size: 10px;
+	}
+}
+
+
+/* end of paragragh */
+
+
+/*   The HTML id attribute is used to specify a unique id for an HTML element 
+you type the id as a selector, type # before the id  */
+
+/* main*/
+
+
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+ /*large size screen*/
+@media screen and  (min-width: 751px)
+{
+	main{
+ flex: 35%;
+  padding: 20px;
+  min-width: 751px;
+	}
+}
+
+
+/*medium size screen*/
+@media screen and (min-width: 401px) and (max-width: 750px)
+{
+	main{
+		min-width: 401px;
+		max-width: 750px;
+		flex: 50%;
+	}
+}
+
+
+
+/* small size screen*/
+@media screen and (max-width: 400px)
+{
+	main{
+	flex-direction: column;	
+	max-width: 400px;
+	
+	
+
+	}
+}
+
+
+
+/* end of main */
+
+
+
+
+
+
+/* images */
+
+
+#firstimage   {
+
+	text-align: center;
+
+}
+
+#firstimage img{
+	width: 300px;
+height: auto;
+}
+
+
+ /*large size screen*/
+@media screen and  (min-width: 751px)
+{
+	#firstimage img{
+		width: 320px;
+height: auto;
+	}
+}
+
+
+/*medium size screen*/
+@media screen and (min-width: 401px) and (max-width: 750px)
+{
+	#firstimage img{
+		width: 260px;
+height: auto;
+	}
+}
+
+
+/* small size screen*/
+@media screen and (max-width: 400px)
+{
+	#firstimage img{
+		width: 200px;
+height: auto;
+	}
+}
+
+
+
+
+#secondimage {
+
+margin: 20px;
+}
+
+
+/*large size screen*/
+@media screen and  (min-width: 751px)
+{
+	#secondimage {
+		
+	}
+}
+
+
+/*medium size screen*/
+@media screen and (min-width: 401px) and (max-width: 750px)
+{
+	#secondimage {
+		
+	}
+}
+
+
+/* small size screen*/
+@media screen and (max-width: 400px)
+{
+	#secondimage {
+		text-align: center;
+
+	}
+}
+
+
+#secondimage img{
+	width: 300px;
+height: auto;
+}
+
+
+/*large size screen*/
+@media screen and  (min-width: 751px)
+{
+	#secondimage img{
+		width: 320px;
+height: auto;
+	}
+}
+
+
+/*medium size screen*/
+@media screen and (min-width: 401px) and (max-width: 750px)
+{
+	#secondimage img{
+		width: 260px;
+height: auto;
+
+	}
+}
+
+
+/* small size screen*/
+@media screen and (max-width: 400px)
+{
+	#secondimage img{
+		width: 200px;
+height: auto;
+
+	}
+}
+
+
+
+
+#thirdimage  {
+
+margin: 20px;
+
+}
+
+
+/*large size screen*/
+@media screen and  (min-width: 751px)
+{
+	#thirdimage{
+
+	}
+}
+
+
+/*medium size screen*/
+@media screen and (min-width: 401px) and (max-width: 750px)
+{
+	#thirdimage{
+			}
+}
+
+
+/* small size screen*/
+@media screen and (max-width: 400px)
+{
+	#thirdimage{
+	
+text-align: center;
+	}
+}
+
+
+
+#thirdimage img{
+	width: 300px;
+height: auto;
+border-radius: 20px
+}
+
+
+
+/*large size screen*/
+@media screen and  (min-width: 751px)
+{
+	#thirdimage img{
+		width: 320px;
+height: auto;
+	}
+}
+
+
+/*medium size screen*/
+@media screen and (min-width: 401px) and (max-width: 750px)
+{
+	#thirdimage img{
+		width: 260px;
+height: auto;
+	}
+}
+
+
+/* small size screen*/
+@media screen and (max-width: 400px)
+{
+	#thirdimage img{
+		width: 200px;
+height: auto;
+
+	}
+}
+
+
+
+
+
+
+
+#fourthimage  {
+
+}
+
+
+/*large size screen*/
+@media screen and  (min-width: 751px)
+{
+	#fourthimage{
+		
+	}
+}
+
+
+/*medium size screen*/
+@media screen and (min-width: 401px) and (max-width: 750px)
+{
+	#fourthimage{
+		
+	}
+}
+
+
+/* small size screen*/
+@media screen and (max-width: 400px)
+{
+	#fourthimage{
+	
+text-align: center;
+	}
+}
+
+#fourthimage img{
+	width: 300px;
+height: auto;
+border-radius: 20px
+}
+
+
+
+
+
+/*large size screen*/
+@media screen and  (min-width: 751px)
+{
+	#fourthimage img{
+		width: 320px;
+height: auto;
+	}
+}
+
+
+/*medium size screen*/
+@media screen and (min-width: 401px) and (max-width: 750px)
+{
+	#fourthimage img{
+		width: 260px;
+height: auto;
+	}
+}
+
+
+/* small size screen*/
+@media screen and (max-width: 400px)
+{
+	#fourthimage img{
+		width: 200px;
+height: auto;
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+.images{
+	
+	margin: 15px;
+}
+
+
+
+/* end of images*/
+
+
+
+/* li selector is used for styling 
+the list on html  */
+
+
+
+#ingredients{
+	background-color: khaki;
+	border-radius: 10px;
+	margin: 20px;
+padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+#Preparation{
+	background-color: khaki;
+	border-radius: 10px;
+	margin: 20px;
+	padding: 20px;
+	
+}
+
+
+
+/*lists*/
+
+
+
+
+.ulol >  li{
+list-style-type: none;
+font-weight: bold;
+text-transform: uppercase;
+font-size: 15px;
+font-family: Tahoma, Geneva, sans-serif;
+color: forestgreen;
+
+}
+
+ /*large size screen*/
+@media screen and  (min-width: 751px)
+{
+	.ulol >  li{
+font-size: 20px;
+	}
+}
+
+
+/*medium size screen*/
+@media screen and (min-width: 401px) and (max-width: 750px)
+{
+	.ulol >  li{
+		font-size: 15px;
+	}
+}
+
+
+/* small size screen*/
+@media screen and (max-width: 400px)
+{
+	.ulol >  li{
+		font-size: 10px;
+	}
+}
+
+
+
+#ul01-01{
+
+
+list-style-type:square;
+	font-family: Tahoma, Geneva, sans-serif
+font-size: 12.5px;
+color: forestgreen;
+}
+
+
+
+ /*large size screen*/
+@media screen and  (min-width: 751px)
+{
+	#ul01-01{font-size: 12.5px;
+
+	}
+}
+/*medium size screen*/
+
+@media screen and (min-width: 401px) and (max-width: 750px)
+
+{
+	#ul01-01{
+		font-size: 10.5px;
+	}
+}
+/* small size screen*/
+@media screen and (max-width: 400px)
+
+{
+	#ul01-01{
+		font-size: 8.5px;
+	}
+}
+
+
+
+
+
+ #ol01-01{
+ 		font-family: Tahoma, Geneva, sans-serif
+font-size: 12.5px;
+color: forestgreen;
+	list-style-type: upper-roman;
+
+}
+
+
+
+ /*large size screen*/
+@media screen and  (min-width: 751px)
+{
+	#ol01-01{font-size: 12.5px;
+
+	}
+}
+/*medium size screen*/
+
+@media screen and (min-width: 401px) and (max-width: 750px)
+
+{
+	#ol01-01{
+		font-size: 10.5px;
+	}
+}
+/* small size screen*/
+@media screen and (max-width: 400px)
+
+{
+	#ol01-01{
+		font-size: 8.5px;
+	}
+}
+
+
+
+*/
+li > span{
+	color:orange;
+	font-weight: bolder;
+	font-style: italic;
+}
+
+
+
+
+/* end of list */
+
+
+
+
+
+
+
+
+
+
+/* the a selector is used for styling 
+the links on the html page */ 
+
+
+
+
+
+
+
+#recipes{
+	margin-left: 40px;
+}
+
+#recipes li{
+	list-style-type: none;
+}
+
+
+#recipes a{
+color: black;
+	text-decoration: none;
+	font-size: 13px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	
+
+}
+
+
+/*large size screen*/
+@media screen and  (min-width: 751px)
+{
+	#recipes a{
+font-size: 15px;
+	}
+}
+
+
+
+/*medium size screen*/
+@media screen and (min-width: 401px) and (max-width: 750px)
+{
+#recipes a{
+		font-size: 10px;
+	}
+}
+
+
+
+/* small size screen*/
+@media screen and (max-width: 400px)
+{
+#recipes a{
+		font-size: 8px;
+	}
+}
+
+
+
+#recipes a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+#emoji-big{
+	
+	text-align: center;
+}
+
+
+
+
+#emoji-big p{
+	font-size:100px; 
+}
+
+
+
+ /*large size screen*/
+@media screen and  (min-width: 751px)
+{
+	#emoji-big p{
+font-size:300px; 
+	}
+}
+
+/*medium size screen*/
+@media screen and (min-width: 401px) and (max-width: 750px)
+{
+	#emoji-big p{
+font-size:200px; 
+	}
+}
+/* small size screen*/
+@media screen and (max-width: 400px)
+{
+	#emoji-big p{
+font-size:100px; 
+	}
+}
+
+
+
+
+
+/* footer is usec for styling the ending of the webpage */
+
+footer {
+	
+	text-align: center;
+	font-weight: bold;
+	background-color: #f2f29e;
+	
+}
+
+footer a{
+	color: black;
+	text-decoration: none;
+}
+
+
+footer > p{
+	margin-bottom: 0px;
+	font-size: 13px
+}
+
+
+ /*large size screen*/
+@media screen and  (min-width: 751px)
+{
+	footer > p{
+font-size: 20px
+	}
+}
+
+
+/*medium size screen*/
+@media screen and (min-width: 401px) and (max-width: 750px)
+{
+	footer > p{
+		font-size: 15px
+	}
+}
+
+
+/* small size screen*/
+@media screen and (max-width: 400px)
+{
+	footer > p{
+		font-size: 10px
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------- EZEBUIRO UCHECHUKWU VINCENT---------------------------------------------------------------- */
+/*-------------------------------------------------------------------- VINEZTECH---------------------- -------------------------------------------------- */
+
+
+
+
+

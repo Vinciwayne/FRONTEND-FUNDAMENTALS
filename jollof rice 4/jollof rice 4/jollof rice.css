@@ -1,0 +1,191 @@
+
+/* i learnt so many css styling from -- 
+https://www.w3schools.com  */
+
+
+
+
+
+
+/* the body represents the whole webpage 
+this changes the background of the whole 
+webpage */
+
+
+
+Body {
+
+	background-color: #ffe6ff;
+
+}
+
+/* for styling of the single heading with css  */
+
+h1 {
+	text-align: center;
+
+}
+
+
+
+
+
+/* for styling of the multiple  heading with css  */
+
+h1, h3{
+
+	 font-family: Arial, Helveica, sans-serif;
+font-weight: bolder;
+text-decoration: underline;
+padding-bottom: 20px;
+text-transform: uppercase;
+
+
+}
+
+
+
+/* end of heading styling */ 
+
+
+
+
+
+
+
+/* this is for all the paragragh on
+ the webpage linked to this css */
+
+
+
+p {
+
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-size: 14px;
+
+}
+
+
+/* end of paragragh */
+
+
+
+
+
+
+
+/*   The HTML id attribute is used to specify a unique id for an HTML element 
+you type the id as a selector, type # before the id  */
+
+
+
+
+#firstimage  {
+
+	float: left;
+	padding: 35px;
+
+}
+
+
+
+
+
+
+#secondimage {
+
+float: right;
+padding: 35px;
+
+
+}
+
+
+
+#thirdimage  {
+
+	float: left;
+	padding: 35px;
+
+}
+
+
+
+#fourthimage  {
+
+	float: center;
+	padding: 35px;
+
+}
+
+
+/* end id selector */
+
+
+
+
+/* li selector is used for styling 
+the list on html  */
+
+li{
+
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 12.5px;
+color: forestgreen;
+
+
+
+}
+
+
+#li01
+{
+	font-weight: bold;
+	font-size: 15px;
+text-transform: uppercase;
+}
+
+
+#li02
+{
+	font-weight: bold;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+/* end of list */
+
+
+
+
+
+
+
+
+
+
+/* the a selector is used for styling 
+the links on the html page */ 
+
+
+a{
+	color: black;
+	text-decoration: none;
+	font-size: 13px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+/* footer is usec for styling the ending of the webpage */
+
+footer {
+	
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+
+
+
+/*----------------------------------------------------------- EZEBUIRO UCHECHUKWU VINCENT---------------------------------------------------------------- */

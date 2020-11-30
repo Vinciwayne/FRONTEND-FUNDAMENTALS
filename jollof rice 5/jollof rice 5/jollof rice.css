@@ -1,0 +1,325 @@
+
+/* i learnt so many css styling from -- 
+https://www.w3schools.com  */
+
+
+
+
+
+
+/* the body represents the whole webpage 
+this changes the background of the whole 
+webpage */
+
+
+
+
+
+/*The selector points to the HTML element you want to style.
+
+The declaration block contains one or more declarations separated by semicolons.
+
+Each declaration includes a CSS property name and a value, separated by a colon.*/
+
+
+Body {
+
+	background-color: #ffe6ff;
+
+}
+
+/* for styling of the single heading with css  */
+
+h1 {
+	text-align: center;
+
+}
+
+
+
+
+
+/* for styling of the multiple  heading with css  */
+
+h1, h3{
+
+	 font-family: Arial, Helveica, sans-serif;
+font-weight: bolder;
+text-decoration: underline;
+padding-bottom: 20px;
+text-transform: uppercase;
+
+
+}
+
+
+
+
+.red-font {
+color: red;
+}
+
+
+
+
+
+/* end of heading styling */ 
+
+
+
+
+
+
+
+/* this is for all the paragragh on
+ the webpage linked to this css */
+
+
+
+p {
+
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-size: 14px;
+
+}
+
+
+
+p > span {
+	 
+	font-style: italic;
+}
+
+/* end of paragragh */
+
+
+ #ghana1{
+	text-decoration: underline;
+}
+
+
+.mali1{
+	font-style: normal;
+	color: red;
+}
+
+
+
+/*   The HTML id attribute is used to specify a unique id for an HTML element 
+you type the id as a selector, type # before the id  */
+
+
+
+
+#firstimage  {
+
+	float: left;
+	padding: 35px;
+
+}
+
+
+
+
+
+
+#secondimage {
+
+float: right;
+padding: 35px;
+
+
+}
+
+
+
+#thirdimage  {
+
+	float: left;
+	padding: 35px;
+
+}
+
+
+
+#fourthimage  {
+
+	float: center;
+	padding: 35px;
+
+}
+
+
+/* end id selector */
+
+
+
+
+/* navigation*/
+
+
+nav> .nav{
+	  background-color: #ff99ff; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  word-spacing: 50px;
+}
+
+ 
+
+ nav> .nav li{
+	 display: inline-block;
+  font-size: 20px;
+  padding: 5px;
+
+}
+
+
+
+ nav> .nav li a{
+	color: white;
+	background-color: #ff5050;
+	padding: 5px;
+	padding-bottom: 0px;
+
+}
+
+
+/* unvisited link */
+nav> .nav li a:link {
+  color: black;
+}
+
+/* visited link */
+ nav> .nav li a:visited {
+  color: yellow;
+}
+
+/* mouse over link */
+ nav> .nav li a:hover {
+  color: white;
+}
+
+/* selected link */
+nav> .nav li a:active {
+  color: blue;
+}
+
+
+
+
+
+
+
+/* li selector is used for styling 
+the list on html  */
+
+
+
+
+
+
+
+
+
+
+.ulol >  li{
+list-style-type: none;
+font-weight: bold;
+text-transform: uppercase;
+font-size: 15px;
+font-family: Tahoma, Geneva, sans-serif;
+color: forestgreen;
+}
+
+
+
+
+
+#ul01-01{
+
+
+list-style-type:square;
+	font-family: Tahoma, Geneva, sans-serif
+font-size: 12.5px;
+color: forestgreen;
+
+
+
+}
+
+
+
+
+
+ #ol01-01{
+ 		font-family: Tahoma, Geneva, sans-serif
+font-size: 12.5px;
+color: forestgreen;
+
+	list-style-type: upper-roman;
+}
+
+
+li > span{
+	color:orange;
+	font-weight: bolder;
+	font-style: italic;
+}
+
+
+
+
+/* end of list */
+
+
+
+
+
+
+
+
+
+
+/* the a selector is used for styling 
+the links on the html page */ 
+
+
+a{
+	color: black;
+	text-decoration: none;
+	font-size: 13px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer is usec for styling the ending of the webpage */
+
+footer {
+	
+	text-align: center;
+	font-weight: bold;
+	background-blend-mode: red;
+	background-color: yellow;
+	
+}
+
+
+footer > p{
+	margin-bottom: 0px;
+}
+
+
+
+/*----------------------------------------------------------- EZEBUIRO UCHECHUKWU VINCENT---------------------------------------------------------------- */
+/*-------------------------------------------------------------------- VINEZTECH---------------------- -------------------------------------------------- */
